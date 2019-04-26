@@ -7,27 +7,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel=stylesheet type="text/css" href="styles.css">  
 
-    <script
-src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    	<script type="text/javascript" src="../../js/lib/jquery.min.js"></script>
+	  <script type="text/javascript" src="../../js/lib/highlight.pack.js"></script>
+	<script type="text/javascript" src="../../js/lib/modernizr.custom.min.js"></script>
+	<script type="text/javascript" src="../../js/examples.js"></script>
+	
+	<script type="text/javascript" src="../../js/lib/greensock/TweenMax.min.js"></script>
+	<script type="text/javascript" src="../../scrollmagic/uncompressed/ScrollMagic.js"></script>
+	<script type="text/javascript" src="../../scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
+	<script type="text/javascript" src="../../scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
+
+   
+
 </head>
-<body class="page">
-     <div class="nav">
-      <ul>
-        <li><a class="active">About</a></li>
-        <li><a href=experience.html>Experience</a></li>
-        <li><a href=education.html>Education</a></li>
-        <li><a href=contact.html>Contact</a></li>
-      </ul>
+<body class="page text">
+    <div class="sidenav">
+     <img class="picture" src="AngelaYangProfile.png" 
+         alt="Angela Yang">
+    <a href="#about" class="active">About</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>  
     </div>
-    <div class="name"> Angela Yang </div>
-    <img class="picture" src="AngelaYang.JPG" 
-         alt="Angela Yang"
-         width="500"
-         >
-    <div class="links name">     
-     <a class="text" href='https://github.com/angelagyang'> Github </a>
-    </br> <a class="text" href='https://www.linkedin.com/in/angelagyang/'> LinkedIn </a>
+    </div>
+    <a href="#linktotop"></a>
+    <div id="about" class="name"> ANGELA YANG</div>
+    <div class="subname"> 2nd year student studying artificial intelligence at Carnegie Mellon </div>
+    <div class="name">     
+     <a  class="links" href='https://github.com/angelagyang'> <img class="links"src="github.svg"> </a>
+     <a  class="links" href='https://www.linkedin.com/in/angelagyang/'> <img class="links" src="linkedin.svg"></a>
+     <a class="about-bottom"> </a> 
     </div> 
+
+    <div><a id="education" class="header"> Education </a> <br> 
+    <a class="subheader"> Carnegie Mellon University</a> <br>
+           <a class="desc"> School of Computer Science, Artificial Intelligence</a> <br>
+                  <a class="desc"> Expected Graduation: May 2021</a> <br> 
+        <a class="subheader"> Coursework </a> <br>
+        <a class="desc"> Artificial Intelligence: Representation and Problem Solving</a> <br>
+        <a class="desc"> Parallel Data Structures and Algorithms</a> <br> 
+        <a class="desc"> Introduction to Machine Learning</a> <br>
+        <a class="desc"> Introduction to Computer Systems</a> <br>
+        <a class="desc"> Cognitive Modeling</a> <br>
+        <a class="desc"> Probability for Computer Scientists</a> <br>
+        <a class="desc"> Theoretical Ideas in Computer Science</a> <br>
+        <a class="desc"> Matrix Algebra</a> <br>
+
+        <a class="subheader"> Involvement </a> <br>
+        <a class="desc"> Carnegie Mellon Spring Carnival Entertainment Committee </a> <br>
+        <a class="desc"> School of Computer Science Student Advisory Council</a> <br>  
+        
+    </div> 
+
+    <div>  <a id="experience" class="header"> Experience</a></div> <br> 
+    <a class= "subheader"> Incoming Software Engineering Intern <a/> <br> 
+    <a class="desc"> May '19 - Aug '19 | Redfin | San Francisco, California</a> <br> 
+    <a class= "subheader"> Teaching Assistant</a> <br>
+    <a class="desc"> Jan '19 - Mar '19 | Concepts in Artificial Intelligence, Carnegie Mellon Unversity | Pittsburgh, Pennsylvania</a> <br> 
+
+    <a class= "subheader"> Software Engineering Intern</a> <br>  
+        <a class="desc"> Jun '19 - Aug '19 | Kabbage | Atlanta, Georgia</a> <br> 
+
+    <a class= "subheader"> Research and Development Intern</a> <br> 
+       <a class="desc"> Jun '16 - Jul '16 | NanoLumens | Atlanta, Georgia</a> <br> 
+
+    <div>
+     <a id="skills" class="header"> Skills </a><br> </div>
+    <a class= "subheader"> Languages </a> <br> 
+     <a class ="desc"> Python, C#, C, Java, SML, SQL, HTML5/CSS, Javascript </a> <br> 
+    <a class= "subheader"> Frameworks and Libraries </a> <br> 
+     <a class ="desc"> .Net Framework, Entity Framework, OWIN/Web API, Angular, RxJS, ReactJS </a>
+    <br> <a class= "subheader"> Software and Tools </a> <br> 
+     <a class ="desc"> MSFT SQL Server, AWS S3, JIRA, BitBucket, Postman, Bamboo, Git, LaTeX, ACT-R, Unity </a>
+    <br>
+    <a class= "subheader"> Operating Systems </a> <br>
+     <a class ="desc"> Windows, Linux </a> <br> 
+    </div> 
+
+    <a id="contact" class="header"> Contact </a> <br> 
+    <a class= "subheader"> Let's get connected! </a> <br>
+ <a class ="desc">AGYANG [AT] ANDREW[DOT]CMU[DOT]EDU</a> <br>   
+  <br> <br> 
+    <div class="container contact-form">
+  <form action="action_page.php">
+
+    <label for="fname">Your Name</label> <br> 
+    <input class="form-fill" type="text" id="fname" name="firstname" placeholder="Your name"> <br> 
+
+    <label for="lname">Your Contact</label> <br> 
+    <input class="form-fill" type="text" id="lname" name="lastname" placeholder="Your email here"> <br> 
+
+    <label for="Role">Your Role</label> <br> 
+    <select class="form-fill" id="role" name="form-role">
+        <option value="" disabled selected>Your Role</option>
+
+      <option value="Student">Student</option>
+      <option value="Educator">Educator</option>
+      <option value="Recruiter">Recruiter</option>
+            <option value="other">Other</option>
+
+    </select>
+    <br> 
+
+    <textarea class="form-fill" id="subject" name="subject" placeholder="Your message" style="height:200px"></textarea>
+    <br> 
+    <button class="button" type="button"> Submit </button> 
+    <br> 
+  </form>
+</div>
+    
+    
+    <footer> 
+        <div class="name">     
+     <a  class="links" href='https://github.com/angelagyang'> <img class="links"src="github.svg"> </a>
+     <a  class="links" href='https://www.linkedin.com/in/angelagyang/'> <img class="links" src="linkedin.svg"></a>
+     <a class="about-bottom"> </a> 
+    </div> 
+
+    </footer> 
     <script type="text/javascript" src="interactions.js"></script>    
+    <script type="text/javascript" src="../../js/tracking.js"></script>
+
 </body>
 </html>
